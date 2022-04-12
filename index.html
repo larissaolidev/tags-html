@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML</title>
+  </head>
+  <body>
+    <h1>HTML</h1>
+    <p>
+      Abreviação para a expressão inglesa
+      Hyper Text Markup Language, que significa:
+      "Linguagem de marcação de hipertexto", é uma 
+      linguagem de marcação utilizada na contrução de páginas na web. 
+      Documentos html podem ser interpretados por navegadores. 
+      A tecnologia é fruto da junção entre os padrões HyTime e SGML.
+    </p>
+
+    <h2>Estrutura do HTML</h2>
+    <p>
+      Um documento HTML começa com a tag html e termina com /html.
+      Ele também contém um cabeçalho que descreve o título da página
+      e um corpo no qual se encontra o conteúdo da página. O cabeçalho
+      é delimitado pelas tags head e /head. Já o corpo é delimitado 
+      pelas tags body e /body. 
+    </p>
+
+    <h4>Exemplo:</h4>
+    <pre>
+      &lt;html&gt;
+        &lt;head&gt;
+          &lt;title&gt;Título da página&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+          Conteúdo da página
+        &lt;/body&gt;
+      &lt;/html&gt;
+    </pre>
+
+
+    <h2>Principais TAGS</h2>
+
+    <h3>HTML (&lt;html&gt;&lt;/html&gt;)</h3>
+    <p>
+      É a tag de construção para o HTML. Se você está criando um
+      arquivo html, você tem que usar para incorporar todo o seu 
+      conteúdo dentro da tag HTML.
+    </p>
+
+    <h3>DOCTYPE (&lt; !DOCTYPE html&gt;)</h3>
+    <p>
+      É usado para definir o tipo de documento. Não é uma tag html. 
+      É declarado antes da tag HTML, pois é a instrução para o site
+      que diz que o documento à frete é do tipo HTML.
+    </p>
+
+    <h3>HEAD (&lt;head&gt;&lt;/head&gt;)</h3>
+    <p>
+      Depois de abrir a tag HTML, a tag head deve ser a primeira coisa
+      a vir. É a tag que não contém nenhum texto, mas engloba todas as 
+      outras tags. Título, estilo, meta, etc, todas as tags estão escritas
+      dentro dele. É usado para descrever o conteúdo do site.
+    </p>
+
+    <h3>TITLE (&lt;title&gt;This is heading.&lt;/title&gt;)</h3>
+    <p>
+      Essa tag é usada quanbdo você deseja dar um titúlo ao seu conteúdo.
+      A tag titúlo também vem sob a tag head. Não inclui nenhuma outra etiqueta 
+      dentro dela. Somente texto pode ser escrito dentro dessa tag.
+    </p>
+
+    <h3>BODY (&lt;body&gt;This is the body.&lt;/body&gt;)</h3>
+    <p>
+      Qualquer coisa que você vê no site está escrito sob esta tag.
+      Portanto, o conteúdo que você deseja deve ser visível para as 
+      pessoas, deve ser incorporado à tag body. Essa tag vem depois 
+      da tag head. 
+    </p>
+    
+    <h3>DIV (&lt;div&gt;&lt;/div&gt;)</h3>
+    <p>
+      A tag div, também conhecida como a tag de divisão, é usada para 
+      definir a divisão do conteúdo no arquivo. Geralmente atua como 
+      contâiner para os outros elementos ou tags no arquivo. Isso geralmente
+      é usado para estilizar o conteúdo do arquivo.
+    </p>
+
+    <h3>SPAN (&lt;span&gt;&lt;/span&gt;)</h3>
+    <p>
+      Ele é usado para envolver todo o texto no arquivo. É basicamente
+      usado para agrupar o conteúdo embutido no arquivo. 
+    </p>
+
+    <h3>A (&lt;a href="https://www.google.com"&gt;Google&lt;/a&gt;)</h3>
+    <p>
+      Essa é a tag de hiperlink. Nesta tag, você pode passar um link de página
+      ou site para onde deseja direcionar o visualizador. Consiste no atributo 
+      <strong>"href"</strong> que é muito importante, pois o destino é passado por esse atributo.
+    </p>
+
+    <h3>BR (&lt;br&gt;)</h3>
+    <p>
+      É o comando usado para quebrar as linhas dentro do arquivo. Tudo o que 
+      ele faz é adicionar um espaçamento no parágrafo e garantir que a linha 
+      seguinte apareça na nova linha. 
+      <strong>Não há tag de fechamento para &lt;br&gt;</strong>. 
+    </p>
+
+    <h3>IMG (&lt;img src="https://bitarray.io/images.logo.png  alt="bitarraylogo"&gt;)</h3>
+    <p>
+      Se você deseja colocar alguma imagem nos arquivos HTML, você pode fazer 
+      o mesmo usando a tag img. Você pode definir a altura e a largura da imagem 
+      usando outros atributos dentro dela e assim, pode personalizar a imagem
+      de acordo com você. <strong>Não há tag de fechamento para &lt;img&gt;</strong>.
+    </p>
+
+    <h3>UL (&lt;ul&gt;&lt;/ul&gt;)</h3>
+    <p>
+      A tag é usada para definir a lista não ordenada no arquivo. Ele publica
+      os limites com marcadores no site. Ele é um elemento de nível de bloco
+      no qual os itens de lista são colocados.
+    </p>
+
+    <h4>Exemplo:</h4>
+    <pre>
+      &lt;ul&gt;Shopping list
+        &lt;li&gt;Item 1
+        &lt;li&gt;Item 2
+        &lt;li&gt;Item 3
+        &lt;li&gt;Item 4
+      &lt;/ul&gt;
+    </pre>
+
+    <h3>LI (&lt;li&gt;&lt;/li&gt;)</h3>
+    <p>
+      A tag li é usada junto com a tag ul para passar a hierarquia da lista
+      no arquivo. Quando você quer passar uma lista dentro de uma lista, 
+      usamos a tag li. 
+    </p>
+
+    <h4>Exemplo:</h4>
+    <pre>
+      &lt;ul&gt;Books
+        &lt;li&gt;fictional
+        &lt;li&gt;classic
+        &lt;li&gt;mystery
+        &lt;li&gt;romance
+      &lt;/ul&gt;
+    </pre>
+
+    <h3>TABELAS</h3>
+    <p>Cada linha da tabela começa com um &lt;tr&gt; e termina com uma tag &lt;/tr&gt;.
+      Tudo entre &lt;td&gt; e &lt;/td&gt; é o conteúdo da célula da tabela.
+      Quando você quiser que suas células sejam cabeçalhos, 
+      nesses casos use a tag &lt;th&gt; em vez da &lt;td&gt;.
+    </p>
+
+    <h4>Exemplo:</h4>
+    <pre>
+    &lt;table&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Roupas&lt;/th&gt;
+        &lt;th&gt;Farmácia&lt;/th&gt;
+        &lt;th&gt;Cosméticos&lt;/th&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Vestidos&lt;/td&gt;
+        &lt;td&gt;Remédios&lt;/td&gt;
+        &lt;td&gt;Rímel&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Meias&lt;/td&gt;
+        &lt;td&gt;Algodão&lt;/td&gt;
+        &lt;td&gt;Batons&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+    </pre>
+
+    <table>
+      <tr>
+        <th>Roupas</th>
+        <th>Fármacia</th>
+        <th>Cosméticos</th>
+      </tr>
+      <tr>
+        <td>Vestidos</td>
+        <td>Remédios</td>
+        <td>Rímel</td>
+      </tr>
+      <tr>
+        <td>Meias</td>
+        <td>Algodão</td>
+        <td>Batons</td>
+      </tr>
+    </table>
+
+    <h3>FORMULÁRIOS</h3>
+    <p>
+      Formulários HTML são um dos principais pontos de interação 
+      entre um usuário e um web site ou aplicativo. 
+      Eles permitem que os usuários enviem dados para o web site.
+      Um formulário HTML é feito de um ou mais widgets.
+      Esses widgets podem ser campos de texto (linha única ou de várias linhas), 
+      caixas de seleção, botões, checkboxes ou radio buttons.
+    </p>
+
+    <form>
+      <div>
+        <label for="name">Nome completo</label>
+        <input id="name" type="text" required>
+      </div>
+      <div>
+        <label for="name">Nome completo</label>
+        <input type="number">
+      </div>
+      <div>
+        <label for="name">Nome completo</label>
+        <input type="radio">
+      </div>
+      <div>
+        <label for="name">Nome completo</label>
+        <input type="checkbox">
+      </div>
+      <div>
+        <select>
+          <option>Option 1</option>
+          <option>Option 2</option>
+          <option>Option 3</option>
+        </select>
+      </div>
+
+      <div>
+        <textarea></textarea>
+      </div>
+
+      <button>Enviar</button>
+    </form>
+
+  </body>
+</html>
